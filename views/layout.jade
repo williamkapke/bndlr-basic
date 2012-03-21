@@ -1,0 +1,17 @@
+!!! 5
+html
+	head
+		title bndlr-basic
+		block styles
+			!{style('global')}
+	body
+		#wrap
+			#header
+				div
+					h1 bndlr-basic.
+			#content
+				block content
+			block foot
+				#footer © !{new Date().getFullYear()} William Wicks
+		block scripts
+			!{script('global')}
